@@ -2,11 +2,8 @@ import axios from 'axios'
 import { API_URL, PRODAM_KEY } from '@config'
 
 export const endpoints: object = {
-  //units: '/',
-  //unitTypes: '/tipos-estabelecimentos'
   units: '/iv6ab',
   unitTypes: '/6et2z'
-
 }
 
 const request = (params: object) => (method: string) => (

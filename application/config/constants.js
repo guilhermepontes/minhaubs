@@ -1,6 +1,5 @@
-import { createActionType } from '@application/utils'
+export const GET_UNITS_REQUEST = 'GET_UNITS_REQUEST'
+export const GET_UNITS_FULFILLED = 'GET_UNITS_FULFILLED'
 
-export default {
-  ...createActionType('GET_UNITS'),
-  ...createActionType('GET_UNIT_TYPES')
-}
+export const GET_UNIT_TYPES_REQUEST = 'GET_UNIT_TYPES_REQUEST'
+export const GET_UNIT_TYPES_FULFILLED = 'GET_UNIT_TYPES_FULFILLED'

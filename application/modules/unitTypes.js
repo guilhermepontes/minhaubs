@@ -1,5 +1,5 @@
 import { createAction, handleActions } from 'redux-actions'
-import types from '@config/constants'
+import * as types from '@config/constants'
 
 const initialState = {
   fetching: true,
