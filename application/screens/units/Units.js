@@ -14,7 +14,6 @@ class Main extends PureComponent {
   }
 
   openUnit = item => {
-    console.log('called')
     this.props.navigation.navigate('Detail', { item })
   }
 
