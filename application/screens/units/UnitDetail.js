@@ -21,7 +21,7 @@ class UnitDetail extends PureComponent {
     return (
       <View style={styles.wrapper}>
         <MapView
-          style={{ flex: 1 }}
+          style={styles.wrapper}
           initialRegion={{
             ...latLong,
             latitudeDelta: 0.005,
