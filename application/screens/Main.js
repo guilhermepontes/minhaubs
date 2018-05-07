@@ -7,7 +7,7 @@ import { requestUnits } from '@modules/units'
 import { requestUnitTypes } from '@modules/unitTypes'
 
 class Main extends PureComponent {
-  componentWillMount() {
+  componentDidMount() {
     this.props.actions.getUnits()
     this.props.actions.getUnitTypes()
   }
