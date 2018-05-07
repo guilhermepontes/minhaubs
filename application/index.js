@@ -4,7 +4,7 @@ import { View } from 'react-native'
 import store from '@application/store'
 import Main from '@screens/Main'
 
-const App = () => (
+const Application = () => (
   <Provider store={store}>
     <Main />
   </Provider>
