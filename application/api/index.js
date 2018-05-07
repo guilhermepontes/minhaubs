@@ -1,12 +1,12 @@
 import axios from 'axios'
 import { API_URL, PRODAM_KEY } from '@config'
 
-export const endpoints: object = {
+export const endpoints = {
   units: '/iv6ab',
   unitTypes: '/6et2z'
 }
 
-const request = (params: object) => (method: string) => (
+const request = params => method => (
   axios({
     baseURL: 'https://api.myjson.com/bins',
     headers: { Authorization: `Bearer ${PRODAM_KEY}` },
