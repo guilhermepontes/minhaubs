@@ -5,7 +5,7 @@ const initialState = {
   fetching: true,
   fetched: false,
   collection: []
-};
+}
 
 export const requestUnitTypes = createAction(types.GET_UNIT_TYPES_REQUEST)
 export const fulfillUnitTypes = createAction(types.GET_UNIT_TYPES_FULFILLED)
