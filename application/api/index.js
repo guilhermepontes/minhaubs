@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { API_URL, PRODAM_KEY } from '@config'
+import { PRODAM_KEY } from '@config'
 
 export const endpoints = {
   units: '/iv6ab',
